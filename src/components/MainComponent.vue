@@ -24,12 +24,19 @@ export default {
 </script>
 
 <template>
-  <Card1Component></Card1Component>
-  <Card2Component></Card2Component>
-  <Card3Component></Card3Component>
-  <Card4Component></Card4Component>
-  <Card5Component></Card5Component>
-  <Card6Component></Card6Component>
+  <main>
+    <div class="container">
+      <!-- UNICA RIGA DEL LAYOUT -->
+      <div class="row">
+        <Card1Component></Card1Component>
+        <Card2Component></Card2Component>
+        <Card3Component></Card3Component>
+        <Card4Component></Card4Component>
+        <Card5Component></Card5Component>
+        <Card6Component></Card6Component>
+      </div>
+    </div>
+  </main>
 </template>
 
 <style lang="scss"></style>

@@ -5,7 +5,9 @@ export default {
 </script>
 
 <template>
-  Footer
+  <footer>
+    <div class="container">a</div>
+  </footer>
 </template>
 
 <style lang="scss"></style>

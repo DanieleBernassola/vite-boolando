@@ -1,1 +1,157 @@
 @use "./partials/variables";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  // background-color: $bg-header;
+  padding: 20px 0;
+}
+
+footer {
+  // background-color: $bg-footer;
+}
+/* INIZIO CLASSI LAYOUT */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.col-33 {
+  margin: 10px;
+  width: calc(100% / 3 - 20px);
+}
+
+.col-25 {
+  width: 25%;
+}
+
+.col-50 {
+  width: 50%;
+  text-align: center;
+}
+/* FINE CLASSI LAYOUT */
+/* INIZIO CLASSI SU IMMAGINE*/
+.content {
+  position: relative;
+}
+
+.content img {
+  width: 100%;
+}
+
+.heart {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background-color: white;
+  font-size: 30px;
+  padding: 10px 15px;
+}
+
+.label {
+  position: absolute;
+  bottom: 100px;
+  color: white;
+}
+
+.discount-label {
+  background-color: red;
+  padding: 5px;
+  left: 0;
+}
+
+.eco-label {
+  background-color: green;
+  padding: 5px;
+}
+/* FINE CLASSI SU IMMAGINE */
+/* INIZIO CLASSI FUORI IMMAGINI */
+.brand {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.prod-name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.new-price {
+  display: inline-block;
+  color: red;
+  font-weight: bold;
+}
+
+.old-price {
+  display: inline-block;
+  text-decoration: line-through;
+}
+/* FINE CLASSI FUORI IMMAGINI */
+/* INIZIO CLASSI HOVER */
+.hover-image {
+  display: none;
+}
+
+.content:hover .main-image {
+  display: none;
+}
+
+.content:hover .hover-image {
+  display: block;
+}
+
+.heart:hover {
+  color: red;
+}
+/* FINE CLASSI HOVER */
+/* INIZIO CLASSI SUPERBONUS */
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  height: 30px;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.position-fixed {
+  position: fixed;
+}
+/* FINE CLASSI SUPERBONUS */
