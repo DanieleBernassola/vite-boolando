@@ -18,7 +18,7 @@ export default {
             <li><a href="">Bambini</a></li>
           </ul>
         </div>
-        <div class="col-50">
+        <div class="col-50 text-align-center">
           <img class="logo" src="../assets/img/boolean-logo.png" alt="logo">
         </div>
         <div class="col-25 text-align-right text-white">
