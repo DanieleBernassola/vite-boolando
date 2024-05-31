@@ -1,4 +1,4 @@
-@use "./partials/variables";
+@use "./partials/variables" as *;
 
 * {
   padding: 0;
@@ -11,16 +11,17 @@ body {
 }
 
 header {
-  // background-color: $bg-header;
-  padding: 20px 0;
+  background-color: $bg-header;
+  padding: 16px 0;
 }
 
 footer {
-  // background-color: $bg-footer;
+  background-color: $bg-footer;
+  padding: 16px 0;
 }
 /* INIZIO CLASSI LAYOUT */
 .container {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -128,11 +129,16 @@ ul {
 
 li {
   display: inline-block;
+  margin: 0 8px;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+
+i {
+  margin: 0 5px;
 }
 
 .logo {
@@ -151,7 +157,26 @@ a {
   align-items: center;
 }
 
-.position-fixed {
-  position: fixed;
+.text-white {
+  color: white;
 }
+
+.company {
+  font-size: 14px;
+}
+
+.footer-info p {
+  font-size: 10px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.footer-icons {
+  margin-top: 5px;
+}
+
+// .position-fixed {
+//   position: fixed;
+// }
 /* FINE CLASSI SUPERBONUS */
