@@ -19,7 +19,7 @@ export default {
           </ul>
         </div>
         <div class="col-50 text-align-center">
-          <img class="logo" src="../assets/img/boolean-logo.png" alt="logo">
+          <img class="logo" src="/img/boolean-logo.png" alt="logo">
         </div>
         <div class="col-25 text-align-right text-white">
           <i class="fa-regular fa-user"></i>
